@@ -12,7 +12,7 @@
 
     <!-- Beschrijving & samenvatting -->
     <description>Privé testfeed met de Gateway Experience sessies</description>
-    <itunes:summary>Privé testfeed met de Gateway Experience sessies</itunes:summary>
+    <itunes:summary>Privé testfeed met de volledige Gateway Experience sessies, inclusief audio’s en begeleiding voor eigen gebruik.</itunes:summary>
 
     <!-- Metadata -->
     <itunes:author>Rafaël</itunes:author>
@@ -22,12 +22,12 @@
 
     <!-- Aflevering -->
     <item>
-      <title>Introduction to Focus 10</title>
-      <enclosure url="https://drive.google.com/uc?export=download&id=10ua82DJyTwM9ZMJxfAGhr_7GKl2MQD_i" length="47300000" type="audio/mpeg"/>
-      <guid isPermaLink="false">CD1-2-IntroductionToFocus10</guid>
+      <title>CD1-1 Orientation</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/o5rz01w4ei9f3ba9g213v/CD1-1-Orientation-47.MP3?rlkey=raabt1i8iuc6plgm3ktmcwm7r&st=oghrd1ek&dl=1" length="49643520" type="audio/mpeg"/>
+      <guid isPermaLink="false">CD1-1-Orientation</guid>
       <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
       <itunes:duration>00:37:10</itunes:duration>
-      <description><![CDATA[The Gateway Experience® Wave I – Introduction to Focus 10.]]></description>
+      <description><![CDATA[The Gateway Experience® Wave I – CD1-1 Orientation (test aflevering).]]></description>
     </item>
 
   </channel>

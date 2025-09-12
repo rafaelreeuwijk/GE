@@ -2,21 +2,21 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>Privé Podcast Feed</title>
-    <link>https://onedrive.live.com/</link>
+    <title>The Gateway Experience – Privé Feed</title>
+    <link>https://rafaelreeuwijk.github.io/GE/</link>
     <language>nl-nl</language>
     <itunes:image href="https://via.placeholder.com/1400x1400.png?text=Cover"/>
-    <description>Testfeed – Orientation aflevering</description>
+    <description>Testfeed met “Introduction to Focus 10” aflevering</description>
     <itunes:author>Rafaël</itunes:author>
     <itunes:explicit>no</itunes:explicit>
 
     <item>
-      <title>Orientation</title>
-      <enclosure url="https://1drv.ms/u/c/8174d38eea4164ea/EbWCnQ_EVflIrmGB9ySbp9wBDFCVziGRYpD7IfiOILFAQA?e=r44hiC&download=1" length="124000000" type="audio/flac"/>
-      <guid isPermaLink="false">GE043FLAC_GE1_Discovery_1_Orientation</guid>
-      <pubDate>Fri, 12 Sep 2025 12:00:00 GMT</pubDate>
-      <itunes:duration>00:33:07</itunes:duration>
-      <description><![CDATA[Orientation – test aflevering uit privé feed]]></description>
+      <title>Introduction to Focus 10</title>
+      <enclosure url="https://drive.google.com/uc?export=download&id=10ua82DJyTwM9ZMJxfAGhr_7GKl2MQD_i" length="47300000" type="audio/mpeg"/>
+      <guid isPermaLink="false">CD1-2-IntroductionToFocus10</guid>
+      <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:37:10</itunes:duration>
+      <description><![CDATA[The Gateway Experience® Wave I – Introduction to Focus 10 (Test aflevering).]]></description>
     </item>
   </channel>
 </rss>

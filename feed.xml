@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Gateway Experience – Privé Feed</title>
     <link>https://rafaelreeuwijk.github.io/GE/</link>
     <language>nl-nl</language>
-    <itunes:image href="https://via.placeholder.com/1400x1400.png?text=Cover"/>
-    <description>Testfeed met “Introduction to Focus 10” aflevering</description>
+
+    <!-- Cover art -->
+    <itunes:image href="https://drive.google.com/uc?export=download&id=1MS2iWx0xwR6pGeTwgeWV3lCFb03HH5Kt"/>
+
+    <!-- Beschrijving & samenvatting -->
+    <description>Privé testfeed met de Gateway Experience sessies</description>
+    <itunes:summary>Privé testfeed met de Gateway Experience sessies</itunes:summary>
+
+    <!-- Metadata -->
     <itunes:author>Rafaël</itunes:author>
     <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://raw.githubusercontent.com/rafaelreeuwijk/GE/main/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <!-- Aflevering -->
     <item>
       <title>Introduction to Focus 10</title>
       <enclosure url="https://drive.google.com/uc?export=download&id=10ua82DJyTwM9ZMJxfAGhr_7GKl2MQD_i" length="47300000" type="audio/mpeg"/>
       <guid isPermaLink="false">CD1-2-IntroductionToFocus10</guid>
       <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
       <itunes:duration>00:37:10</itunes:duration>
-      <description><![CDATA[The Gateway Experience® Wave I – Introduction to Focus 10 (Test aflevering).]]></description>
+      <description><![CDATA[The Gateway Experience® Wave I – Introduction to Focus 10.]]></description>
     </item>
+
   </channel>
 </rss>

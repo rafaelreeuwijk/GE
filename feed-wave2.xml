@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wave II - Threshold</title>
+    <link>https://rafaelreeuwijk.github.io/GE/</link>
+    <language>nl-nl</language>
+    <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+    <description>Wave II - Threshold</description>
+    <itunes:summary>Verder dan de drempel: verfijning van Focus 10 en introductie van Focus 12. Oefeningen voor intentie, probleemoplossing en gerichte zelfconditionering.</itunes:summary>
+    <itunes:author>Monroe Products</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://rafaelreeuwijk.github.io/GE/feed-wave2.xml" rel="self" type="application/rss+xml"/>
+    <item>
+  <title>CD3 - 5 -  Energy Bar Tool-32</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/zzno7tx6vlqim4nukxyt0/CD3-5-Energy-Bar-Tool-32.MP3?rlkey=crgzah5vxohddtdngwyq9k1r1&amp;dl=1" length="49245909" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD3---5----Energy-Bar-Tool-32-MP3</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD3 - 5 -  Energy Bar Tool-32]]></description>
+</item><item>
+  <title>CD2 - 4 -  Color Breathing-167</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/7b9mgd8ltyo514zcxdrhy/CD2-4-Color-Breathing-167.MP3?rlkey=tlxrzxq2skreaaw4gdizjnc36&amp;dl=1" length="38848234" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD2---4----Color-Breathing-167-MP3</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD2 - 4 -  Color Breathing-167]]></description>
+</item><item>
+  <title>CD2 - 3 -  One-Month Patterning-454</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/5yvt6hbkyv5lvhhp8qtk4/CD2-3-One-Month-Patterning-454.MP3?rlkey=ys8p24wgc78oq8njb3jrov7jc&amp;dl=1" length="50108439" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD2---3----One-Month-Patterning-454-MP3</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD2 - 3 -  One-Month Patterning-454]]></description>
+</item><item>
+  <title>CD1 - 1 - Introduction to Focus  12-256</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/1u311cp7ppv5o24zuyhrq/CD1-1-Introduction-to-Focus-12-256.MP3?rlkey=nj7f5bjaknapqiwqz8umkqtkg&amp;dl=1" length="47698672" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD1---1---Introduction-to-Focus--12-256-MP3</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD1 - 1 - Introduction to Focus  12-256]]></description>
+</item><item>
+  <title>CD1 - 2 -  Problem Solving-931</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/mvksoybakc5yhsz3p6i0m/CD1-2-Problem-Solving-931.MP3?rlkey=jzcr4jx14m9e9frem7w7vybsw&amp;dl=1" length="51108147" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD1---2----Problem-Solving-931-MP3</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD1 - 2 -  Problem Solving-931]]></description>
+</item><item>
+  <title>CD3 - 6 -  Living Body Map-162</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g5gwcygg4yji0m13d8ktk/CD3-6-Living-Body-Map-162.MP3?rlkey=3nkkznzvn69kdh4ltsqalyhz3&amp;dl=1" length="52150630" type="audio/mpeg"/>
+  <guid isPermaLink="false">CD3---6----Living-Body-Map-162-MP3</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration></itunes:duration>
+  <description><![CDATA[CD3 - 6 -  Living Body Map-162]]></description>
+</item>
+  </channel>
+</rss>

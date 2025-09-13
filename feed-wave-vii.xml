@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wave VII - Voyager</title>
+    <link>https://rafaelreeuwijk.github.io/GE/</link>
+    <language>nl-nl</language>
+    <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+    <description>Wave VII - Voyager</description>
+    <itunes:summary>Verder reizen met begeleiding en compassie-georiënteerde oefeningen. Ontwikkel stabiliteit, helderheid en doelgerichtheid in uitgebreide bewustzijnsstaten.</itunes:summary>
+    <itunes:author>Monroe Products</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education"/>
+    <atom:link href="https://rafaelreeuwijk.github.io/GE/feed-wave7.xml" rel="self" type="application/rss+xml"/>
+    <item>
+  <title>Explore Total Self</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/mpxpbiug079ijde3eo9ti/GE073FLAC_GE7_Voyager_1_Explore_Total_Self.m4a?rlkey=d17oeht5zv2vhgbilurpiyoky&amp;dl=1" length="127486626" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-01-Explore-Total-Self</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:48</itunes:duration>
+  <description><![CDATA[CD1-1 — Explore Total Self]]></description>
+</item><item>
+  <title>Introduction to Focus 23</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="140118638" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-02-Introduction-to-Focus-23</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:41:05</itunes:duration>
+  <description><![CDATA[CD1-2 — Introduction to Focus 23]]></description>
+</item><item>
+  <title>Introduction to Focus 25</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="131650699" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-03-Introduction-to-Focus-25</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:40</itunes:duration>
+  <description><![CDATA[CD1-3 — Introduction to Focus 25]]></description>
+</item><item>
+  <title>Introduction to Focus 27</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="145092542" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-04-Introduction-to-Focus-27</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:41:40</itunes:duration>
+  <description><![CDATA[CD1-4 — Introduction to Focus 27]]></description>
+</item><item>
+  <title>First Retrieval</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="149737024" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-05-First-Retrieval</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:42:12</itunes:duration>
+  <description><![CDATA[CD1-5 — First Retrieval]]></description>
+</item><item>
+  <title>Messages From Beyond</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="97215802" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-06-Messages-From-Beyond</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:29:25</itunes:duration>
+  <description><![CDATA[CD1-6 — Messages From Beyond]]></description>
+</item>
+  </channel>
+</rss>

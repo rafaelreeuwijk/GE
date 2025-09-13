@@ -85,7 +85,7 @@
       grid.innerHTML = EPISODES.map(card).join('');
     }
 
-    function copyURL(url){ navigator.clipboard.writeText(url).then(()=>{ alert("Copied: " + url + "\nJust paste it in a podcast app as RSS-feed!"); }); }
+    function copyURL(url){ navigator.clipboard.writeText(url).then(()=>{ alert("Copied: " + url + "\n\nJust paste it in a podcast app as RSS-feed!"); }); }
     render(); document.getElementById('yr').textContent = new Date().getFullYear();
   </script>
 </body>

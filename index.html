@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Gateway Experience — Hoofdstukken</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #12151c;
+      --muted: #9aa3b2;
+      --text: #e8ecf3;
+      --accent: #4da3ff;
+      --accent-2: #7bdcb5;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color: var(--text);
+      background: radial-gradient(1200px 600px at 20% -10%, #1a2232 0%, var(--bg) 50%);
+      min-height: 100vh;
+      padding: 32px 20px 60px;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(24px, 3.5vw, 36px);
+      letter-spacing: 0.3px;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 16px;
+    }
+    @media (min-width: 640px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (min-width: 1024px) {
+      .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+    .card {
+      background: linear-gradient(180deg, #171b24 0%, var(--card) 100%);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+      display: flex;
+      flex-direction: column;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 36px rgba(0,0,0,0.28);
+    }
+    .cover {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+    .content {
+      padding: 14px 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.3;
+      min-height: 2.6em;
+    }
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+    }
+    .url {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #0f131a;
+      color: var(--muted);
+      border: 1px solid rgba(255,255,255,0.08);
+      font-size: 13px;
+      outline: none;
+    }
+    .btn {
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-weight: 700;
+      cursor: pointer;
+      color: #0b0d12;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      transition: filter .12s ease;
+      white-space: nowrap;
+    }
+    .btn:hover { filter: brightness(1.05); }
+    .btn:active { filter: brightness(0.95); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 28px;
+      font-size: 13px;
+    }
+    .hint {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>A Gateway Experience — Hoofdstukken</h1>
+      <p>Kies een hoofdstuk. Je kunt de link openen of eenvoudig kopiëren.</p>
+      <div class="hint">👋 Plaats je 8 cover-afbeeldingen in <code>/covers/</code> en noem ze exact zoals hieronder is ingevuld.</div>
+    </header>
+
+    <div class="grid" id="grid"></div>
+
+    <footer>
+      © <span id="yr"></span> — Podcast landing
+    </footer>
+  </div>
+
+  <script>
+    // 🔧 VUL HIER JE ECHTE LINKS IN
+    // Tip: Zet eventuele download-URLs of direct stream-URLs hier. De UI toont ze zichtbaar en maakt kopiëren super simpel.
+    const EPISODES = [
+      {
+        title: "Wave I — Discovery",
+        cover: "covers/A Gateway Experience Wave I - Discovery - CD Package.jpg",
+        url: "https://example.com/wave1"
+      },
+      {
+        title: "Wave II — Threshold",
+        cover: "covers/A Gateway Experience Wave II - Threshold - CD Package.jpg",
+        url: "https://example.com/wave2"
+      },
+      {
+        title: "Wave III — Freedom",
+        cover: "covers/A Gateway Experience Wave III - Freedom - CD Package.jpg",
+        url: "https://example.com/wave3"
+      },
+      {
+        title: "Wave IV — Adventure",
+        cover: "covers/A Gateway Experience Wave IV - Adventure - CD Package.jpg",
+        url: "https://example.com/wave4"
+      },
+      {
+        title: "Wave V — Exploring",
+        cover: "covers/A Gateway Experience Wave V - Exploring - CD Package.jpg",
+        url: "https://example.com/wave5"
+      },
+      {
+        title: "Wave VI — Odyssey",
+        cover: "covers/A Gateway Experience Wave VI - Odyssey - CD Package.jpg",
+        url: "https://example.com/wave6"
+      },
+      {
+        title: "Wave VII — Voyager",
+        // Let op: in je screenshot staan VII en VIII als .png — dat werkt ook prima op GitHub Pages.
+        cover: "covers/A Gateway Experience Wave VII - Voyager - CD Package.png",
+        url: "https://example.com/wave7"
+      },
+      {
+        title: "Wave VIII — Union",
+        cover: "covers/A Gateway Experience Wave VIII - Union - CD Package.png",
+        url: "https://example.com/wave8"
+      }
+    ];
+
+    const grid = document.getElementById("grid");
+
+    function cardTemplate(ep, idx) {
+      const id = "url" + idx;
+      return `
+        <article class="card">
+          <img class="cover" src="${ep.cover}" alt="${ep.title} cover" loading="lazy" />
+          <div class="content">
+            <div class="title">${ep.title}</div>
+            <div class="actions">
+              <input id="${id}" class="url" type="text" value="${ep.url}" readonly />
+              <button class="btn" onclick="copyURL('${id}')">Kopieer</button>
+            </div>
+            <button class="btn" onclick="openURL('${ep.url}')" style="margin-top:8px">Open</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function render() {
+      grid.innerHTML = EPISODES.map(cardTemplate).join("");
+    }
+
+    function copyURL(id) {
+      const input = document.getElementById(id);
+      input.select();
+      input.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(input.value).then(() => {
+        // small visual feedback
+        const old = input.value;
+        input.value = "✅ Gekopieerd!";
+        setTimeout(() => input.value = old, 900);
+      }).catch(() => {
+        alert("Kon niet kopiëren. Kopieer handmatig uit het tekstvak.");
+      });
+    }
+
+    function openURL(url) {
+      if (!url || url.startsWith("https://example.com")) {
+        alert("Vul eerst een echte link in (boven het 'Kopieer' knopje).");
+        return;
+      }
+      window.open(url, "_blank", "noopener");
+    }
+
+    render();
+    document.getElementById("yr").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

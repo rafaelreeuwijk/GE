@@ -2,38 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>A Gateway Experience — Chapters</title>
   <style>
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#0b0d12; color:#e8ecf3; }
-    .wrap { max-width: 1000px; margin: 0 auto; padding: 28px 16px 48px; }
-    h1 { margin:0 0 6px; font-size: clamp(22px, 3.6vw, 36px); }
-    p { margin:0 0 18px; color:#a7b0bf; }
-    .grid { display:grid; gap:14px; grid-template-columns: repeat(1, minmax(0,1fr)); }
-    @media (min-width:640px){ .grid{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
-    @media (min-width:1024px){ .grid{ grid-template-columns: repeat(4, minmax(0,1fr)); } }
-    .card { background: #141922; border:1px solid rgba(255,255,255,.06); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
-    .card img { width:100%; aspect-ratio:1/1; object-fit:cover; display:block; }
-    .content { padding:12px; display:flex; flex-direction:column; gap:10px; }
-    .title { font-weight:700; min-height:2.6em; }
-    .url-box { display:flex; gap:8px; align-items:center; }
-    input.url { flex:1; padding:9px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background:#0f131a; color:#b7c0cf; }
-    button.copy-btn { border:none; border-radius:10px; padding:9px 12px; font-weight:700; cursor:pointer; background:#4da3ff; color:#0b0d12; min-width:80px; text-align:center; }
-    button.copy-btn:hover{ filter:brightness(1.05); }
-    button.action-btn { margin-top:6px; border:none; border-radius:10px; padding:9px 12px; font-weight:700; cursor:pointer; background:#4da3ff; color:#0b0d12; text-align:center; }
-    button.action-btn:hover{ filter:brightness(1.05); }
-    footer { margin-top:22px; color:#8d97a9; font-size:13px; text-align:center; }
+    :root{
+      --bg1:#0b0d12;
+      --bg2:#0e1420;
+      --bg3:#1b2435;
+      --card:#141922;
+      --text:#e8ecf3;
+      --muted:#a7b0bf;
+      --line:rgba(255,255,255,.08);
+      --accent:#4da3ff;
+      --accent-2:#7bdcb5;
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.22);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 20% -5%, var(--bg3) 0%, var(--bg1) 55%),
+        linear-gradient(180deg, var(--bg2), var(--bg1));
+      /* Optional background image – place a subtle image at /GE/bg.jpg */
+      background-image:
+        radial-gradient(1200px 600px at 20% -5%, rgba(255,255,255,.05) 0%, rgba(0,0,0,0) 55%),
+        url('bg.jpg'),
+        linear-gradient(180deg, var(--bg2), var(--bg1));
+      background-size: cover, cover, auto;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .shade{
+      backdrop-filter: blur(1px);
+      background: linear-gradient(180deg, rgba(10,12,18,.65), rgba(10,12,18,.65));
+      min-height:100%;
+    }
+    .wrap{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 18px 64px;
+    }
+    header{margin: 0 0 18px; text-align:center;}
+    h1{margin:0 0 6px; font-size: clamp(26px, 4vw, 44px); letter-spacing:.3px;}
+    p.lead{margin:0; color:var(--muted)}
+    .grid{
+      display:grid;
+      gap:18px;
+      grid-template-columns: repeat(1, minmax(0,1fr));
+      margin-top: 22px;
+    }
+    @media (min-width:700px){ .grid{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
+    @media (min-width:1100px){ .grid{ grid-template-columns: repeat(4, minmax(0,1fr)); } }
+
+    .card{
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: linear-gradient(180deg, #171b24 0%, var(--card) 100%);
+      box-shadow: var(--shadow);
+      position: relative;
+      display: flex; flex-direction: column;
+      transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+    }
+    .card:hover{ transform: translateY(-3px); box-shadow: 0 14px 36px rgba(0,0,0,.28); border-color: rgba(255,255,255,.12); }
+    .cover{ width:100%; aspect-ratio:1/1; object-fit:cover; display:block; }
+    .content{ padding:14px; display:flex; flex-direction:column; gap:12px; }
+    .title{ font-weight:800; font-size:16px; min-height:2.6em; }
+    .cta{
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+    }
+    .url{
+      width:100%;
+      padding:10px 12px;
+      border-radius: 12px;
+      background:#0f131a;
+      color:#c1c9d8;
+      border:1px solid var(--line);
+      outline:none;
+      font-size: 13px;
+    }
+    .copy-btn{
+      appearance:none; border:none; cursor:pointer;
+      border-radius: 12px; padding: 10px 12px;
+      background:#2a2f3a; color:var(--text); font-weight:700;
+      display:inline-flex; align-items:center; gap:8px;
+    }
+    .copy-btn:hover{ filter:brightness(1.05); }
+    .card-link{
+      position:absolute; inset:0 0 72px 0; /* whole card clickable except bottom area with copy */
+      z-index: 1;
+    }
+    .open-hint{
+      position:absolute; right:12px; top:12px; z-index:2;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color:#0b0d12; font-weight:800; padding:6px 10px; border-radius: 999px;
+      font-size: 12px; box-shadow: 0 6px 18px rgba(0,0,0,.25);
+      pointer-events:none; opacity:.95;
+    }
+    footer{ margin-top:28px; color:var(--muted); font-size:13px; text-align:center; }
+    .kbd{ font: 600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace; padding:3px 6px; border-radius:6px; background:#0f131a; border:1px solid var(--line); color:#b7c0cf; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>A Gateway Experience — Chapters</h1>
-    <p>Select a chapter. You can open the link or copy it easily.</p>
-    <div id="grid" class="grid"></div>
-    <footer>© <span id="yr"></span></footer>
+  <div class="shade">
+    <div class="wrap">
+      <header>
+        <h1>A Gateway Experience — Chapters</h1>
+        <p class="lead">Select a chapter. Click the card to open; use the button to copy the RSS link.</p>
+      </header>
+
+      <section class="grid" id="grid"></section>
+
+      <footer>© <span id="yr"></span></footer>
+    </div>
   </div>
 
   <script>
+    // Fill in your real URLs here
     const EPISODES = [
       { title: "Wave I — Discovery", cover: "covers/wave1.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave1.xml" },
       { title: "Wave II — Threshold", cover: "covers/wave2.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave2.xml" },
@@ -44,26 +136,45 @@
       { title: "Wave VII — Voyager", cover: "covers/wave7.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave7.xml" },
       { title: "Wave VIII — Union", cover: "covers/wave8.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave8.xml" }
     ];
+
     const grid = document.getElementById('grid');
+
     function card(ep, i){
       const id = 'url'+i;
+      const safeUrl = ep.url.replace(/"/g, '&quot;');
       return `
-      <article class="card">
-        <img src="${ep.cover}" alt="${ep.title} cover" loading="lazy">
-        <div class="content">
-          <div class="title">${ep.title}</div>
-          <div class="url-box">
-            <input id="${id}" class="url" type="text" value="${ep.url}" readonly>
-            <button class="copy-btn" onclick="copyURL('${id}')">Copy</button>
+        <article class="card">
+          <a class="card-link" href="${safeUrl}" target="_blank" rel="noopener"></a>
+          <div class="open-hint">Open</div>
+          <img class="cover" src="${ep.cover}" alt="${ep.title} cover" loading="lazy" />
+          <div class="content">
+            <div class="title">${ep.title}</div>
+            <div class="cta">
+              <input id="${id}" class="url" type="text" value="${ep.url}" readonly>
+              <button class="copy-btn" onclick="copyURL('${id}')" aria-label="Copy RSS link">
+                <span>📋</span><span>Copy</span>
+              </button>
+            </div>
           </div>
-          <button class="action-btn" onclick="openURL('${ep.url}')">Open</button>
-        </div>
-      </article>`;
+        </article>
+      `;
     }
+
     function render(){ grid.innerHTML = EPISODES.map(card).join(''); }
-    function copyURL(id){ const el = document.getElementById(id); el.select(); el.setSelectionRange(0,99999); navigator.clipboard.writeText(el.value); }
-    function openURL(url){ if(url.startsWith('https://example.com')){ alert('Replace the URL in EPISODES first.'); return; } window.open(url, '_blank', 'noopener'); }
-    render(); document.getElementById('yr').textContent = new Date().getFullYear();
+    function copyURL(id){
+      const el = document.getElementById(id);
+      el.select(); el.setSelectionRange(0,99999);
+      navigator.clipboard.writeText(el.value).then(()=>{
+        const original = el.value;
+        el.value = '✅ Copied!';
+        setTimeout(()=>{ el.value = original; }, 900);
+      }).catch(()=>{
+        alert('Could not copy. Please copy from the field manually.');
+      });
+    }
+
+    render();
+    document.getElementById('yr').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>

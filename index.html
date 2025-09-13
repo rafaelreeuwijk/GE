@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A Gateway Experience — Chapters</title>
+  <title>The Gateway Experience</title>
   <link rel="icon" href="icon.ico">
   <style>
     body { 
@@ -13,8 +13,9 @@
       background-attachment: fixed;
       color:#e8ecf3; 
     }
-    .wrap { max-width: 1000px; margin: 0 auto; padding: 28px 16px 48px; }
+    .wrap { max-width: 700px; margin: 0 auto; padding: 28px 16px 48px; }
     h1 { margin:0 0 6px; font-size: clamp(22px, 3.6vw, 36px); text-align:center; }
+    h2 { margin:0 0 6px; font-size: clamp(22px, 3.6vw, 16px); text-align:center; }
     p { margin:0 0 18px; color:#a7b0bf; text-align:center; }
     .grid { display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
     .card { background: rgba(20,25,34,0.92); border:1px solid rgba(255,255,255,.06); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 4px 12px rgba(0,0,0,0.4); }
@@ -28,13 +29,21 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>A Gateway Experience — Chapters</h1>
+    <h1>The Gateway Experience</h1>
+    <h2>Chapters 1 - 8</h2>
     <p>Select a chapter and copy the link easily.</p>
+    <div id="main"></div>
     <div id="grid" class="grid"></div>
     <footer>© <span id="yr"></span></footer>
   </div>
 
   <script>
+    const MAIN = { 
+      title: "Wave I — VIII", 
+      cover: "covers/GE.jpg", 
+      url: "https://rafaelreeuwijk.github.io/GE/feed-waves.xml" 
+    };
+
     const EPISODES = [
       { title: "Wave I — Discovery", cover: "covers/wave1.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave-i.xml" },
       { title: "Wave II — Threshold", cover: "covers/wave2.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave-ii.xml" },
@@ -45,9 +54,11 @@
       { title: "Wave VII — Voyager", cover: "covers/wave7.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave-vii.xml" },
       { title: "Wave VIII — Union", cover: "covers/wave8.jpg", url: "https://rafaelreeuwijk.github.io/GE/feed-wave-viii.xml" }
     ];
+
     const grid = document.getElementById('grid');
-    function card(ep, i){
-      const id = 'url'+i;
+    const main = document.getElementById('main');
+
+    function card(ep){
       return `
       <article class="card">
         <img src="${ep.cover}" alt="${ep.title} cover" loading="lazy">
@@ -57,8 +68,24 @@
         </div>
       </article>`;
     }
-    function render(){ grid.innerHTML = EPISODES.map(card).join(''); }
-    function copyURL(url){ navigator.clipboard.writeText(url).then(()=>{ alert("Copied: " + url); }); }
+
+    function mainCard(ep){
+      return `
+      <article class="card" style="margin-bottom:28px;">
+        <img src="${ep.cover}" alt="${ep.title} cover" loading="lazy">
+        <div class="content">
+          <div class="title">${ep.title}</div>
+          <button class="copy-btn" onclick="copyURL('${ep.url}')">📋 Copy Main Link</button>
+        </div>
+      </article>`;
+    }
+
+    function render(){ 
+      main.innerHTML = mainCard(MAIN);
+      grid.innerHTML = EPISODES.map(card).join('');
+    }
+
+    function copyURL(url){ navigator.clipboard.writeText(url).then(()=>{ alert("Copied: " + url + "\nJust paste it in a podcast app as RSS-feed!"); }); }
     render(); document.getElementById('yr').textContent = new Date().getFullYear();
   </script>
 </body>

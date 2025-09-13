@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!-- =========================================================
+         GATEWAY EXPERIENCE – MULTI-SEASON FEED (Waves I–II)
+         - Main cover: shown in listings and as default artwork.
+         - Season cover: reference the season-specific image in each item
+                          of that season via <itunes:image href="..."/>.
+         - Episode cover: optionally override per episode (same tag).
+         - This feed is configured as SERIAL (seasoned order).
+         ========================================================= -->
+    <title>Gateway Experience – Waves I–II</title>
+    <link>https://rafaelreeuwijk.github.io/GE/</link>
+    <language>nl-nl</language>
+
+    <!-- Main show cover (fallback/default). -->
+    <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/GE.jpg"/>
+
+    <description>Gateway Experience met Hemi-Sync® – Waves I–II</description>
+    <itunes:summary>Complete feed met seizoenen (Waves). Wave I (Discovery) is ingevuld; Wave II (Threshold) is klaargezet als invulbare structuur met seizoen-cover.</itunes:summary>
+    <itunes:author>Monroe Products</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education"/>
+    <itunes:type>serial</itunes:type>
+
+    <!-- Self link to this feed -->
+    <atom:link href="https://rafaelreeuwijk.github.io/GE/feed-waves-1-2.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- =========================================================
+         SEASON 1 (Wave I – Discovery)
+         Tip: Gebruik dezelfde "seizoen-cover" per item via <itunes:image/>
+         ========================================================= -->
+    <!-- BEGIN: Season 1 items (copied from user's feed) -->
+    <item>
+      <title>Orientation</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/o5rz01w4ei9f3ba9g213v/CD1-1-Orientation-47.MP3?rlkey=raabt1i8iuc6plgm3ktmcwm7r&amp;dl=1" length="45830738" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-01-Orientation</guid>
+      <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:33:08</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD1-1 — Orientation]]></description>
+    </item>
+
+    <item>
+      <title>Introduction to Focus 10</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/843r3vgv55c1uoapznoeh/CD1-2-Introduction-to-Focus-10-356.MP3?rlkey=ldrq0retqygvj6x5puh2vpig4&amp;dl=1" length="49643238" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-02-Introduction-to-Focus-10</guid>
+      <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:37:10</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD1-2 — Introduction to Focus 10]]></description>
+    </item>
+
+    <item>
+      <title>Advanced Focus 10</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/eskhebvzzclw12pzpy9me/CD2-3-Advanced-Focus-10-383.MP3?rlkey=5wk15us5i0gn6c5yqyodh2327&amp;dl=1" length="46988004" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-03-Advanced-Focus-10</guid>
+      <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:36:10</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD2-3 — Advanced Focus 10]]></description>
+    </item>
+
+    <item>
+      <title>Release and Recharge</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/bsy5bww3b7eckrog5ghix/CD2-4-Release-and-Recharge-395.MP3?rlkey=kg49iqbjrnkpe9xl2rvhnmjns&amp;dl=1" length="46985797" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-04-Release-and-Recharge</guid>
+      <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:36:01</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD2-4 — Release and Recharge]]></description>
+    </item>
+
+    <item>
+      <title>Exploration</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g3qvygt34iam3d9d5y6jo/CD3-5-Exploration-Sleep-188.MP3?rlkey=dvso9ym67yzmv0jbby078jzpe&amp;dl=1" length="47241183" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-05-Exploration</guid>
+      <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:37:04</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD3-5 — Exploration]]></description>
+    </item>
+
+    <item>
+      <title>Free Flow 10</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/qytlkub8269l7dkqc4x02/CD3-6-Free-Flow-10-163.MP3?rlkey=0w9nkg2abwvbckv7p50ck38nx&amp;dl=1" length="42425351" type="audio/mpeg"/>
+      <guid isPermaLink="false">W1-06-Free-Flow-10</guid>
+      <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:33:38</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD3-6 — Free Flow 10]]></description>
+    </item>
+    <!-- END: Season 1 -->
+
+    <!-- =========================================================
+         SEASON 2 (Wave II – Threshold) – SCAFFOLD
+         - Set the season cover once: point all items' <itunes:image/>
+           to the same Wave II image, e.g. /GE/covers/wave2.jpg
+         - Replace the placeholder MP3 URLs, durations, sizes, dates.
+         ========================================================= -->
+    <!-- BEGIN: Season 2 scaffold -->
+     <item>
+      <title>Energy Bar Tool</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/zzno7tx6vlqim4nukxyt0/CD3-5-Energy-Bar-Tool-32.MP3?rlkey=crgzah5vxohddtdngwyq9k1r1&amp;dl=1" length="49245909" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-05-Energy-Bar-Tool</guid>
+      <pubDate>Sat, 17 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:35:12</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD3-5 — Energy Bar Tool]]></description>
+    </item>
+
+    <item>
+      <title>Color Breathing</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/7b9mgd8ltyo514zcxdrhy/CD2-4-Color-Breathing-167.MP3?rlkey=tlxrzxq2skreaaw4gdizjnc36&amp;dl=1" length="38848234" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-04-Color-Breathing</guid>
+      <pubDate>Sun, 16 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD2-4 — Color Breathing]]></description>
+    </item>
+
+    <item>
+      <title>One-Month Patterning</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/5yvt6hbkyv5lvhhp8qtk4/CD2-3-One-Month-Patterning-454.MP3?rlkey=ys8p24wgc78oq8njb3jrov7jc&amp;dl=1" length="50108439" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-03-One-Month-Patterning</guid>
+      <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:38:31</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD2-3 — One-Month Patterning]]></description>
+    </item>
+
+    <item>
+      <title>Introduction to Focus 12</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/1u311cp7ppv5o24zuyhrq/CD1-1-Introduction-to-Focus-12-256.MP3?rlkey=nj7f5bjaknapqiwqz8umkqtkg&amp;dl=1" length="47698672" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-01-Introduction-to-Focus-12</guid>
+      <pubDate>Tue, 13 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:35:09</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD1-1 — Introduction to Focus 12]]></description>
+    </item>
+
+    <item>
+      <title>Problem Solving</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/mvksoybakc5yhsz3p6i0m/CD1-2-Problem-Solving-931.MP3?rlkey=jzcr4jx14m9e9frem7w7vybsw&amp;dl=1" length="51108147" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-02-Problem-Solving</guid>
+      <pubDate>Wed, 14 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:36:59</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD1-2 — Problem Solving]]></description>
+    </item>
+    
+    <item>
+      <title>Living Body Map</title>
+      <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g5gwcygg4yji0m13d8ktk/CD3-6-Living-Body-Map-162.MP3?rlkey=3nkkznzvn69kdh4ltsqalyhz3&amp;dl=1" length="52150630" type="audio/mpeg"/>
+      <guid isPermaLink="false">W2-06-Living-Body-Map</guid>
+      <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>00:36:55</itunes:duration>
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[CD3-6 — Living Body Map]]></description>
+    </item>
+    <!-- END: Season 2 scaffold -->
+
+    <!-- =========================================================
+         COMPLETE FILLABLE ITEM TEMPLATE
+         Copy, paste, and fill the placeholders for any episode.
+         ========================================================= -->
+    <!-- BEGIN: Item template -->
+    <item>
+      <title><![CDATA[TITLE – korte, nette titel]]></title>
+
+      <!-- Direct MP3 URL; length in BYTES (not MB) -->
+      <enclosure url="https://rafaelreeuwijk.github.io/GE/audio/FILE-NAME.mp3" length="BYTES_INTEGER" type="audio/mpeg"/>
+
+      <!-- Unique GUID (do not reuse) -->
+      <guid isPermaLink="false">UNIQUE-GUID-HERE</guid>
+
+      <!-- RFC 2822 date in GMT -->
+      <pubDate>Thu, 25 Sep 2025 12:00:00 GMT</pubDate>
+
+      <!-- hh:mm:ss -->
+      <itunes:duration>00:00:00</itunes:duration>
+
+      <!-- Season cover by default, or override with an episode-specific image -->
+      <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/SEASON-COVER.jpg"/>
+
+      <!-- Seasoning and episode numbering -->
+      <itunes:season>SEASON_NUMBER</itunes:season>
+      <itunes:episode>EPISODE_NUMBER</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType> <!-- full | trailer | bonus -->
+
+      <!-- Short, clean description -->
+      <description><![CDATA[Short description without extra noise.]]></description>
+    </item>
+    <!-- END: Item template -->
+
+  </channel>
+</rss>

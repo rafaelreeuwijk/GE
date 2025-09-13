@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Wave I — VIII</title>
+    <link>https://rafaelreeuwijk.github.io/GE/</link>
+    <language>nl-nl</language>
+    <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/GE.jpg"/>
+    <description>Gateway Experience met Hemi-Sync® – Waves I–VIII (multi-season feed)</description>
+    <itunes:summary>Complete feed met seizoenen (Waves I–VIII). Afleveringen samengevoegd uit jouw per-wave feeds, met per seizoen een vaste cover.</itunes:summary>
+    <itunes:author>Monroe Products</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Education"/>
+    <itunes:type>serial</itunes:type>
+    <atom:link href="https://rafaelreeuwijk.github.io/GE/feed-waves.xml" rel="self" type="application/rss+xml"/>
+    <item>
+  <title>Orientation</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/o5rz01w4ei9f3ba9g213v/CD1-1-Orientation-47.MP3?rlkey=raabt1i8iuc6plgm3ktmcwm7r&amp;dl=1" length="45830738" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-01-Orientation</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:33:08</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD1-1 — Orientation</description>
+<itunes:season>1</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Introduction to Focus 10</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/843r3vgv55c1uoapznoeh/CD1-2-Introduction-to-Focus-10-356.MP3?rlkey=ldrq0retqygvj6x5puh2vpig4&amp;dl=1" length="49643238" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-02-Introduction-to-Focus-10</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:10</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD1-2 — Introduction to Focus 10</description>
+<itunes:season>1</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Advanced Focus 10</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/eskhebvzzclw12pzpy9me/CD2-3-Advanced-Focus-10-383.MP3?rlkey=5wk15us5i0gn6c5yqyodh2327&amp;dl=1" length="46988004" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-03-Advanced-Focus-10</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:10</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD2-3 — Advanced Focus 10</description>
+<itunes:season>1</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Release and Recharge</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/bsy5bww3b7eckrog5ghix/CD2-4-Release-and-Recharge-395.MP3?rlkey=kg49iqbjrnkpe9xl2rvhnmjns&amp;dl=1" length="46985797" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-04-Release-and-Recharge</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:01</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD2-4 — Release and Recharge</description>
+<itunes:season>1</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Exploration</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g3qvygt34iam3d9d5y6jo/CD3-5-Exploration-Sleep-188.MP3?rlkey=dvso9ym67yzmv0jbby078jzpe&amp;dl=1" length="47241183" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-05-Exploration</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:04</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD3-5 — Exploration</description>
+<itunes:season>1</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Free Flow 10</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/qytlkub8269l7dkqc4x02/CD3-6-Free-Flow-10-163.MP3?rlkey=0w9nkg2abwvbckv7p50ck38nx&amp;dl=1" length="42425351" type="audio/mpeg"/>
+  <guid isPermaLink="false">W1-06-Free-Flow-10</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:33:38</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave1.jpg"/>
+  <description>CD3-6 — Free Flow 10</description>
+<itunes:season>1</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Energy Bar Tool</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/zzno7tx6vlqim4nukxyt0/CD3-5-Energy-Bar-Tool-32.MP3?rlkey=crgzah5vxohddtdngwyq9k1r1&amp;dl=1" length="49245909" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-05-Energy-Bar-Tool</guid>
+  <pubDate>Sat, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:12</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD3-5 — Energy Bar Tool</description>
+<itunes:season>2</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Color Breathing</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/7b9mgd8ltyo514zcxdrhy/CD2-4-Color-Breathing-167.MP3?rlkey=tlxrzxq2skreaaw4gdizjnc36&amp;dl=1" length="38848234" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-04-Color-Breathing</guid>
+  <pubDate>Sun, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:30:00</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD2-4 — Color Breathing</description>
+<itunes:season>2</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>One-Month Patterning</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/5yvt6hbkyv5lvhhp8qtk4/CD2-3-One-Month-Patterning-454.MP3?rlkey=ys8p24wgc78oq8njb3jrov7jc&amp;dl=1" length="50108439" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-03-One-Month-Patterning</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:38:31</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD2-3 — One-Month Patterning</description>
+<itunes:season>2</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Introduction to Focus 12</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/1u311cp7ppv5o24zuyhrq/CD1-1-Introduction-to-Focus-12-256.MP3?rlkey=nj7f5bjaknapqiwqz8umkqtkg&amp;dl=1" length="47698672" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-01-Introduction-to-Focus-12</guid>
+  <pubDate>Tue, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:09</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD1-1 — Introduction to Focus 12</description>
+<itunes:season>2</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Problem Solving</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/mvksoybakc5yhsz3p6i0m/CD1-2-Problem-Solving-931.MP3?rlkey=jzcr4jx14m9e9frem7w7vybsw&amp;dl=1" length="51108147" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-02-Problem-Solving</guid>
+  <pubDate>Wed, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD1-2 — Problem Solving</description>
+<itunes:season>2</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Living Body Map</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g5gwcygg4yji0m13d8ktk/CD3-6-Living-Body-Map-162.MP3?rlkey=3nkkznzvn69kdh4ltsqalyhz3&amp;dl=1" length="52150630" type="audio/mpeg"/>
+  <guid isPermaLink="false">W2-06-Living-Body-Map</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:55</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave2.jpg"/>
+  <description>CD3-6 — Living Body Map</description>
+<itunes:season>2</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Lift Off</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/rs4nlxj3tt2uxwrfz34p5/CD1-1-Lift-Off-649.MP3?rlkey=rjwxlp1wg3zcjyhw3gg6jiurp&amp;dl=1" length="39773842" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-01-Lift-Off</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:29:46</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/>
+  <description>CD1-1 — Lift Off</description>
+<itunes:season>3</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Remote Viewing</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/5kbbvyysuha4jwa8e591y/CD1-2-Remote-Viewing-924.MP3?rlkey=3bcwpmqpbswczp8h00gcc0ogq&amp;dl=1" length="48367930" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-02-Remote-Viewing</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:16</itunes:duration>
+  <description>CD1-2 — Remote Viewing</description>
+<itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/><itunes:season>3</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Vectors</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/asp1wdjk2ufeb69o5vng6/CD2-3-Vectors-90.MP3?rlkey=0g5eazah1znzeytqreo6igq7m&amp;dl=1" length="43960353" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-03-Vectors</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:32:42</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/>
+  <description>CD2-3 — Vectors</description>
+<itunes:season>3</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Five Questions</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/u55913ygye69cs30e6md2/CD2-4-Five-Questions-161.MP3?rlkey=kh6svodmel8wgw6ehmdvpl727&amp;dl=1" length="48849880" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-04-Five-Questions</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:02</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/>
+  <description>CD2-4 — Five Questions</description>
+<itunes:season>3</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Energy Food</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/uus3792vw2amkeuorpzvb/CD3-5-Energy-Food-627.MP3?rlkey=uar2t02yq02j15ji7gvp57pq8&amp;dl=1" length="43798505" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-05-Energy-Food</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:32:53</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/>
+  <description>CD3-5 — Energy Food</description>
+<itunes:season>3</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>First Stage Separation</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/0fdxk09ewvwahnwo9nmhu/CD3-6-First-Stage-Separation-225.MP3?rlkey=h2labb6g7gq5mfy8eh1taw0ed&amp;dl=1" length="48114376" type="audio/mpeg"/>
+  <guid isPermaLink="false">W3-06-First-Stage-Separation</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:20</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave3.jpg"/>
+  <description>CD3-6 — First Stage Separation</description>
+<itunes:season>3</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>One Year Patterning</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/4h4tbi6277ljw4xc7gfb4/CD1-1-One-Year-Patterning-785.MP3?rlkey=hm1xtz53be4aoqdtt4ac2zefb&amp;dl=1" length="46239869" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-01-One-Year-Patterning</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:34:30</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD1-1 — One Year Patterning</description>
+<itunes:season>4</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Five Messages</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/n9o5allpvanmizcyac704/CD1-2-Five-Messages-66.MP3?rlkey=dtgx37o0lnurzwhwuv7ocngf6&amp;dl=1" length="47133101" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-02-Five-Messages</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:30</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD1-2 — Five Messages</description>
+<itunes:season>4</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Free Flow 12</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/igzxf0drtfq2it2048f6b/CD2-3-Free-Flow-12-469.MP3?rlkey=i2q1g6bg1gxquk2tnq9qgxbti&amp;dl=1" length="47839782" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-03-Free-Flow-12</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:09</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD2-3 — Free Flow 12</description>
+<itunes:season>4</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>NVC I</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/w3nn90fporwjmsd7lw3nu/CD2-4-NVC-I-677.MP3?rlkey=uamrncs9z9i7kp95zw9emd3fr&amp;dl=1" length="48886263" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-04-NVC-I</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:48</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD2-4 — NVC I</description>
+<itunes:season>4</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>NVC II</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/0m743lfwfndzgyugn5ldx/CD3-5-NVC-II-57.MP3?rlkey=r121hkfqed6xhxjrys1ovpz46&amp;dl=1" length="56550342" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-05-NVC-II</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:45:40</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD3-5 — NVC II</description>
+<itunes:season>4</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Compoint</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/g7ua3k0gxw6erhnvrqrlq/CD3-6-Compoint-22.MP3?rlkey=886egm5b8h7vapfny29r1m76q&amp;dl=1" length="36328584" type="audio/mpeg"/>
+  <guid isPermaLink="false">W4-06-Compoint</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:26:52</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave4.jpg"/>
+  <description>CD3-6 — Compoint</description>
+<itunes:season>4</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Advanced Focus 12</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/d28u7mvi4fazq90xb2eym/CD1-1-Advanced-Focus-12-772.MP3?rlkey=2ezjdh36v4yayao4uvrvx3k2p&amp;dl=1" length="45018544" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-01-Advanced-Focus-12</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:02</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD1-1 — Advanced Focus 12</description>
+<itunes:season>5</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Exploring Intuition</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/vbvwcm7xiiasni7wyl8pr/CD2-3-Exploring-Intuition-411.MP3?rlkey=pmgaugcq2n7d0r88fnyqtmcvp&amp;dl=1" length="45414457" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-03-Exploring-Intuition</guid>
+  <pubDate>Sun, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:02</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD2-3 — Exploring Intuition</description>
+<itunes:season>5</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Discovering Intuition</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/n87uhqb8cdnwcli4vlmxq/CD1-2-Discovering-Intuition-39.MP3?rlkey=vatm34mc1fr8m63hanyr9xssb&amp;dl=1" length="45272871" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-02-Discovering-Intuition</guid>
+  <pubDate>Mon, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:00</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD1-2 — Discovering Intuition</description>
+<itunes:season>5</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Intro to Focus 15</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/z88fpf4v46xkm7c03eebn/CD2-4-Intro-to-Focus-15-459.MP3?rlkey=79f9v0sjxrabc8zrrs6d7kyw1&amp;dl=1" length="46113339" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-04-Intro-to-Focus-15</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:00</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD2-4 — Intro to Focus 15</description>
+<itunes:season>5</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Mission 15 Creation and Manifestation</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/8tl4kssc69st5mk70urkc/CD3-5-Mission-15-Creation-and-Manifestation-138.MP3?rlkey=4gaunfuh8wxlpv2f9li7st0v5&amp;dl=1" length="45561178" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-05-Mission-15-Creation-and-Manifestation</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:35:02</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD3-5 — Mission 15 Creation and Manifestation</description>
+<itunes:season>5</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Exploring Focus 15</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/zrzt1rn9kmuprujk21zjf/CD3-6-Exploring-Focus-15-135.MP3?rlkey=zqmuryctz7dkgon704a3so3hy&amp;dl=1" length="50389894" type="audio/mpeg"/>
+  <guid isPermaLink="false">W5-06-Exploring-Focus-15</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:38:50</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave5.jpg"/>
+  <description>CD3-6 — Exploring Focus 15</description>
+<itunes:season>5</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Sensing Locale 1</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/hcqp0lb328iwvyz28s0of/CD1-1-Sensing-Locale-1-786.MP3?rlkey=i7ds8qj2bwpm6mgd22yje4cqi&amp;dl=1" length="48909393" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-01-Sensing-Locale-1</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:34:51</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD1-1 — Sensing Locale 1</description>
+<itunes:season>6</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Expansion in Locale 1</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/pt6kcgncjntpry3kc0afl/CD1-2-Expansion-in-Locale-1-881.MP3?rlkey=u4qdzdv6go42mognyb1a1id82&amp;dl=1" length="46700663" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-02-Expansion-in-Locale-1</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:34:16</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD1-2 — Expansion in Locale 1</description>
+<itunes:season>6</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Point of Departure</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/20zfeh4r4irhmgxkeaftc/CD2-3-Point-of-Departure-907.MP3?rlkey=jhldbqofa9p1sy3zgqczo1dfo&amp;dl=1" length="47185705" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-03-Point-of-Departure</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:34:46</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD2-3 — Point of Departure</description>
+<itunes:season>6</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Nonphysical friends</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/ettk1830drqrpcrmoczh3/CD2-4-Nonphysical-friends-482.MP3?rlkey=cemtiuy4zre14m3yy4qy7gi77&amp;dl=1" length="49142192" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-04-Nonphysical-friends</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:01</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD2-4 — Nonphysical friends</description>
+<itunes:season>6</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Movement to Locale 2 - Intro Focus 21</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/4ut4wn8kc7cawys9lxdb2/CD3-5-Movement-to-Locale-2-Intro-Focus-21-271.MP3?rlkey=fn3ly1wx4o04ucnbfe6uxx377&amp;dl=1" length="45536005" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-05-Movement-to-Locale-2-Intro-Focus-21</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:33:38</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD3-5 — Movement to Locale 2 - Intro Focus 21</description>
+<itunes:season>6</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Free Flow Journey in Focus 21</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/pjakakr5hpdek6esz8r35/CD3-6-Free-Flow-Journey-in-Focus-21-79.MP3?rlkey=vna7x4h9krogyr3xj5oxoeiwd&amp;dl=1" length="54010520" type="audio/mpeg"/>
+  <guid isPermaLink="false">W6-06-Free-Flow-Journey-in-Focus-21</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:40:06</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave6.jpg"/>
+  <description>CD3-6 — Free Flow Journey in Focus 21</description>
+<itunes:season>6</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Explore Total Self</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/mpxpbiug079ijde3eo9ti/GE073FLAC_GE7_Voyager_1_Explore_Total_Self.m4a?rlkey=d17oeht5zv2vhgbilurpiyoky&amp;dl=1" length="127486626" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-01-Explore-Total-Self</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:48</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-1 — Explore Total Self</description>
+<itunes:season>7</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Introduction to Focus 23</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="140118638" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-02-Introduction-to-Focus-23</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:41:05</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-2 — Introduction to Focus 23</description>
+<itunes:season>7</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Introduction to Focus 25</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="131650699" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-03-Introduction-to-Focus-25</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:36:40</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-3 — Introduction to Focus 25</description>
+<itunes:season>7</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Introduction to Focus 27</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="145092542" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-04-Introduction-to-Focus-27</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:41:40</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-4 — Introduction to Focus 27</description>
+<itunes:season>7</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>First Retrieval</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="149737024" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-05-First-Retrieval</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:42:12</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-5 — First Retrieval</description>
+<itunes:season>7</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Messages From Beyond</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fo/4c6ivgt2bxka5nsjjoqx2/AKusBJDERdQhoaaBNNlHMoE?rlkey=mi2r27dz1lg7gtwod1b4gs3fi&amp;dl=1" length="97215802" type="audio/mpeg"/>
+  <guid isPermaLink="false">W7-06-Messages-From-Beyond</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:29:25</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave7.jpg"/>
+  <description>CD1-6 — Messages From Beyond</description>
+<itunes:season>7</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Special Tour</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/chgvzgx5vkmpozf16zl6a/GE080FLAC_GE8_Union_1_Special_Tour.m4a?rlkey=79uk53qgtzc2m3vtpmqe4tffs&amp;dl=1" length="119511056" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-01-Special-Tour</guid>
+  <pubDate>Sat, 13 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Returning to your place in Special Place in Focus 27, you will obtain an overview of other areas you will explore in more detail</description>
+<itunes:season>8</itunes:season><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Meeting the Entry Director</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/s79ey2ktuyj53cvh5tijk/GE080FLAC_GE8_Union_2_Meeting_with_the_Entry_Director.m4a?rlkey=ixsa7piaiqf85hlv2d8izmgtj&amp;dl=1" length="116253112" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-02-Meeting-with-the-Entry-Director</guid>
+  <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Learn about some of your own personal history, and the steps in preparing to enter a physical body</description>
+<itunes:season>8</itunes:season><itunes:episode>2</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Educational Opportunities</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/okhxvf451geae6p8tshxm/GE080FLAC_GE8_Union_3_Educational_Opportunities.m4a?rlkey=8jacia1e7j8cra61zh44o9in3&amp;dl=1" length="117800002" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-03-Educational-Opportunities</guid>
+  <pubDate>Mon, 15 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Opportunity to ask for a personal demonstration for how the Educational Center functions</description>
+<itunes:season>8</itunes:season><itunes:episode>3</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Healing and Regeneration Center</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/bpvvs80ibwzt19zodvhvy/GE080FLAC_GE8_Union_4_Healing_and_Regeneration_Center.m4a?rlkey=1dg2uuudn1czx1loiidw3mdpd&amp;dl=1" length="117719759" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-04-Healing-and-Regeneration-Center</guid>
+  <pubDate>Tue, 16 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Receive a personal experience for whatever healing, regeneration or balancing you are most in need of.</description>
+<itunes:season>8</itunes:season><itunes:episode>4</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>The Planning Center</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/43hj24aado653153yr82b/GE080FLAC_GE8_Union_5_Planning_Center.m4a?rlkey=mvu5j662b8jlv82psr96m2qai&amp;dl=1" length="118926328" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-05-Planning-Center</guid>
+  <pubDate>Wed, 17 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Observe and participate in the place which oversees energy patterns in the Earth Life System.</description>
+<itunes:season>8</itunes:season><itunes:episode>5</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Coordination Area</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/6xa1vzoo3ou5fuylc2mk9/GE080FLAC_GE8_Union_6_Coordination_Area.m4a?rlkey=hsd8hg21pvktuw18xbdfcppbb&amp;dl=1" length="117867193" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-06-Coordination-Area</guid>
+  <pubDate>Thu, 18 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Meet the energy beings responsible for maintaining and managing this area of Focus 27 and learn about opportunities for further growth and development.</description>
+<itunes:season>8</itunes:season><itunes:episode>6</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>Inner Earth</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/suhi8fg4f1ln5wece4c2p/GE080FLAC_GE8_Union_7_Inner_Earth.m4a?rlkey=h33b0gthpqzshs41ci0ofocfn&amp;dl=1" length="114009400" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-07-Inner-Earth</guid>
+  <pubDate>Fri, 19 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Meet with the intelligences who maintain the physical Earth and explore the different mineral kingdoms as you make your way to the inner Earth core.</description>
+<itunes:season>8</itunes:season><itunes:episode>7</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+    <item>
+  <title>The Absolute</title>
+  <enclosure url="https://dl.dropboxusercontent.com/scl/fi/nzhekp63osdp6kyzsiexp/GE080FLAC_GE8_Union_8_The_Absolute.m4a?rlkey=5e080qkummoofex9c7b1730ph&amp;dl=1" length="118743429" type="audio/mpeg"/>
+  <guid isPermaLink="false">W8-08-The-Absolute</guid>
+  <pubDate>Sat, 20 Sep 2025 12:00:00 GMT</pubDate>
+  <itunes:duration>00:37:59</itunes:duration>
+  <itunes:image href="https://rafaelreeuwijk.github.io/GE/covers/wave8.jpg"/>
+  <description>Unique opportunity to experience graduating from the Earth Life System.</description>
+<itunes:season>8</itunes:season><itunes:episode>8</itunes:episode><itunes:episodeType>full</itunes:episodeType></item>
+  </channel>
+</rss>
